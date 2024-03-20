@@ -16,10 +16,10 @@ $users = array(
 
 );
 
-usort($usuarios, 'comparaIdade');
+usort($users, 'comparaIdade');
 
 
-foreach ($usuarios as $usuario) {
+foreach ($users as $user) {
   
   echo $usuario['nome'] . ' - ' . $usuario['idade'] . ' anos' . "<br>";
 }
